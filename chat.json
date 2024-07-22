@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'Hello World' button placed in relation to the sidebar?\", \"option1\": \"Above the sidebar\", \"option2\": \"Below the sidebar\"}, {\"question 2\": \"Do you have any specific color or design theme preferences for the 'Hello World' button?\", \"option1\": \"Use the app's primary color theme\", \"option2\": \"Custom color/design (please specify)\"}], \"input_token_count\": 556, \"output_token_count\": 99, \"time_taken\": \"0:00:03.074247\"}",
+        "message_id": "guest22072024133213",
+        "timestamp": "22072024133220",
+        "component_file_name": "purple_hero_component_1721653191",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Got it, creating a button with the text \"hello world\".",
         "message_id": "guest22072024133213",
