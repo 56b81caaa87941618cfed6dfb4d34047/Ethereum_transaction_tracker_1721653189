@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"How would you like the sidebar to appear in relation to the overall layout of the app's interface?\", \"option1\": \"As a permanent fixture on one side of the screen, always visible.\", \"option2\": \"As a collapsible component, only visible when a menu icon is clicked.\"}, {\"question 2\": \"Do you have any specific design or theme preferences for the sidebar that should match or complement the existing app design?\", \"option1\": \"Yes, it should match the app's existing design theme and color scheme.\", \"option2\": \"No, I'm open to suggestions and willing to consider different design options.\"}], \"input_token_count\": 477, \"output_token_count\": 141, \"time_taken\": \"0:00:10.441818\"}",
+        "message_id": "guest22072024130755",
+        "timestamp": "22072024130807",
+        "component_file_name": "purple_header_component_1721653191",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Adding sidebar with home, about, and contact fields.",
         "message_id": "guest22072024130755",
