@@ -72,7 +72,7 @@ Vue.component("purple_hero_component_1721653191", {
         </div>
         </div>
     </div>
-</section>
+</section>"`,
     data() {
         return {
             expanded: false,
