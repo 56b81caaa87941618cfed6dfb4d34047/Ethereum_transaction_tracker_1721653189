@@ -38,7 +38,7 @@ Vue.component("purple_header_component_1721653191", {
                 </nav>
     
                 <div class="flex-1">
-                  <button class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded">
+                  <button class="bg-gradient-to-r from-blue-900 to-purple-900 hover:from-purple-900 hover:to-blue-900 text-white font-bold py-2 px-4 rounded-full shadow-lg shadow-purple-500/50">
                     Hello World
                   </button>  
                 </div>
