@@ -1,5 +1,23 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Great idea! Adding a sidebar with home, about and contact navlinks.",
+        "message_id": "guest22072024130026",
+        "timestamp": "22072024130028",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "add a sidebar with the navlinks home, about and contact",
+        "message_id": "guest22072024130026",
+        "timestamp": "22072024130026",
+        "component_file_name": "purple_header_component_1721653191",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "makeinfinite",
         "content": "Can you describe the project a bit more?",
         "message_id": "project_init",
