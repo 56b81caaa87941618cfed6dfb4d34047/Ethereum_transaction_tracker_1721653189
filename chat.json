@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Do you have a specific visual style or theme in mind for the navbar?\", \"option1\": \"Yes, I have a style guide or examples to follow.\", \"option2\": \"No, I am open to suggestions.\"}, {\"question 2\": \"Should the navbar be fixed at the top of the page or be dynamic (appear/disappear) as users scroll?\", \"option1\": \"Fixed at the top of the page.\", \"option2\": \"Dynamic, based on user scrolling.\"}], \"input_token_count\": 265, \"output_token_count\": 113, \"time_taken\": \"0:00:05.757272\"}",
+        "message_id": "guest22072024134455",
+        "timestamp": "22072024134521",
+        "component_file_name": "purple_hero_component_1721653191",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_ui_checklist",
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Implement a responsive navigation drawer for mobile users\", \"checked\": true}, {\"feature\": \"Integrate a live chat support feature in the contact section\", \"checked\": false}, {\"feature\": \"Add a 'Recent Transactions' section under the home page for quick access\", \"checked\": true}, {\"feature\": \"Incorporate a user feedback form in the about section to collect app improvement suggestions\", \"checked\": false}, {\"feature\": \"Implement breadcrumb navigation on the about and contact pages for better user navigation experience\", \"checked\": true}, {\"feature\": \"Add a dark/light mode toggle on the navbar for user preference\", \"checked\": false}], \"input_token_count\": 219, \"output_token_count\": 130, \"time_taken\": \"0:00:03.483855\"}",
         "message_id": "guest22072024134455",
