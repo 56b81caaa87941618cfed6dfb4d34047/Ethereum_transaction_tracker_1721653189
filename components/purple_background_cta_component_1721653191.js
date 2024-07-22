@@ -3,14 +3,24 @@ It is centered on the page and includes a gradient-based title, a subtitle, a pa
 */
 
 Vue.component("purple_background_cta_component_1721653191", {
-    template: `
+  template: `
     <section id="cta-section-container">
-        <div id="section-container" class="max-w-6xl mx-auto px-4 sm:px-6 bg-white">
-            <div id="content-container" class="relative px-8 py-12 md:py-20 rounded-[3rem] overflow-hidden">
+        <div id="section-container" class="flex max-w-6xl mx-auto px-4 sm:px-6 bg-white">
+            <div class="flex-none w-48 bg-slate-800 text-white p-6">
+              <nav>
+                <ul class="space-y-4">
+                  <li><a href="#" class="block py-2 px-4 hover:bg-slate-700 transition duration-150 ease-in-out">Home</a></li>
+                  <li><a href="#" class="block py-2 px-4 hover:bg-slate-700 transition duration-150 ease-in-out">About</a></li>
+                  <li><a href="#" class="block py-2 px-4 hover:bg-slate-700 transition duration-150 ease-in-out">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+            
+            <div id="content-container" class="flex-1 relative px-8 py-12 md:py-20 rounded-r-[3rem] overflow-hidden">
                 <!-- Radial gradient -->
                 <div id="radial-gradient" class="absolute flex items-center justify-center top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/3 aspect-square" aria-hidden="true">
-                    <div id="radial-gradient-outer" class="bg-purple-500 absolute inset-0 translate-z-0 rounded-full blur-[120px] opacity-70"></div>
-                    <div id="radial-gradient-inner" class="absolute w-1/4 h-1/4 translate-z-0 rounded-full blur-[40px] bg-purple-400">
+                    <div id="radial-gradient-outer" class="bg-purple-500 absolute inset-0 translate-z-0 rounded-full blur-120px opacity-70"></div>
+                    <div id="radial-gradient-inner" class="absolute w-1/4 h-1/4 translate-z-0 rounded-full blur-40px bg-purple-400">
                     </div>
                 </div>
                 <!-- Blurred shape -->
@@ -29,7 +39,7 @@ Vue.component("purple_background_cta_component_1721653191", {
                 </div>
             </div>
         </div>
-    </section>`,
+    </section>
         data() {
             return {
                 expanded: false, 
