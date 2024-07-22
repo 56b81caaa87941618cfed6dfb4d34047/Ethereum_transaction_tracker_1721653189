@@ -9,8 +9,21 @@ Vue.component("purple_header_component_1721653191", {
     <header class="w-full z-30" id="header-section-container">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-white">
             <div class="flex items-center justify-between h-16 md:h-20">
-    
+
+                <div class="flex-1">
+                  <div id="sidebar" class="w-64 h-screen bg-slate-800 text-white p-4">
+                    <nav>
+                      <ul>
+                        <li><a href="index.html" class="block py-2 px-4 hover:bg-slate-700 transition duration-150 ease-in-out">Home</a></li>
+                        <li><a href="about.html" class="block py-2 px-4 hover:bg-slate-700 transition duration-150 ease-in-out">About</a></li> 
+                        <li><a href="contact.html" class="block py-2 px-4 hover:bg-slate-700 transition duration-150 ease-in-out">Contact</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                
                 <div id="site-branding" class="flex-1"><a id="logo-link" class="inline-flex" href="index.html" aria-label="Cruip"><img id="logo-image" class="max-w-none" src="./images/logo.svg" width="38" height="38" alt="Stellar"></a></div>
+
     
                 <nav id="desktop-navigation" class="hidden md:flex md:grow">
     
@@ -24,7 +37,13 @@ Vue.component("purple_header_component_1721653191", {
     
                 </nav>
     
-                <ul id="desktop-sign-in-links" class="flex-1 flex justify-end items-center">
+                <div class="flex-1">
+                  <button class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded">
+                    Hello World
+                  </button>  
+                </div>
+                
+                <ul id="desktop-sign-in-links" class="flex justify-end items-center">
                     <li><a id="sign-in-link" class="font-medium text-sm whitespace-nowrap transition duration-150 ease-in-out text-slate-300 hover:text-white" href="signin.html">Sign in</a></li>
                     <li class="ml-6"><a id="sign-up-link" class="btn-sm transition duration-150 ease-in-out w-full group relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none text-slate-300 hover:text-white [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box]" href="signup.html"><span class="relative inline-flex items-center">Sign up <span id="sign-up-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1 text-purple-500">-&gt;</span></span></a></li>
                 </ul>
