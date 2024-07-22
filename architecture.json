@@ -30,5 +30,9 @@
     {
         "level": 1,
         "task_description": "This is the user's previous chat history with this AI:\nThe conversation initiates with the user proposing the inclusion of a sidebar featuring navigation links for 'home', 'about', and 'contact' pages. The AI, affirming the suggestion as a great idea, echoes the user's request for adding the sidebar with the specified navigation links. Following this, the AI prompts the user to provide a more detailed description of the project to better understand the context and requirements surrounding the request. This inquiry indicates the AI's intent to tailor its assistance or advice based on a deeper understanding of the project's specifics.\nAI: Acknowledged, I will add a button with \"Hello World\".\nUser: add a button that says hello world\nAI: Great! Adding a button with the text \"Hello World\".\nUser: add a button with the text hello world\nAI: Certainly, I will add a sidebar with navigation links.\nUser: add a sidebar with the navlinks home, about and contact\nThis is the user's current request of changes to be made: add a sidebar with the fields home, about and contact"
+    },
+    {
+        "level": 1,
+        "task_description": "add a navbar above the current navbar with the fields home, about and contact"
     }
 ]
