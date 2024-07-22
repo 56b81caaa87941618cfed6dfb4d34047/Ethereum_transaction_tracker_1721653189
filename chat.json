@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the navbar to be fixed at the top of the page as users scroll, or should it remain static at the top of the landing page only?\", \"option1\": \"Fixed navbar\", \"option2\": \"Static navbar\"}, {\"question 2\": \"Do you have a preference for the style and color theme of the navbar to align with your current app design, or would you like to explore new themes?\", \"option1\": \"Align with current app design\", \"option2\": \"Explore new themes\"}], \"input_token_count\": 266, \"output_token_count\": 119, \"time_taken\": \"0:00:07.111621\"}",
+        "message_id": "guest22072024134653",
+        "timestamp": "22072024134754",
+        "component_file_name": "purple_hero_component_1721653191",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Great, I'll add a navbar with those links.",
         "message_id": "guest22072024134653",
