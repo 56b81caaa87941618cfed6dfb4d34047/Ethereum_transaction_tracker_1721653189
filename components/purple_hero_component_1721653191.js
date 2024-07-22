@@ -9,6 +9,19 @@ Vue.component("purple_hero_component_1721653191", {
     <section id="hero-section-container">
     <div id="section-container" class="relative max-w-6xl mx-auto px-4 sm:px-6 bg-white">
         <div id="hero-content-container" class="pt-32 pb-16 md:pt-52 md:pb-32">
+            
+            <div class="flex-1">
+              <div class="fixed left-0 top-0 bottom-0 w-64 bg-gray-800 text-white p-4">
+                <nav>
+                  <ul>
+                    <li><a href="#" class="block py-2 px-4 hover:bg-gray-700 transition duration-200">Home</a></li>
+                    <li><a href="#" class="block py-2 px-4 hover:bg-gray-700 transition duration-200">About</a></li>  
+                    <li><a href="#" class="block py-2 px-4 hover:bg-gray-700 transition duration-200">Contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+
             <!-- Hero content -->
             <div id="hero-content" class="max-w-3xl mx-auto text-center" style="position: relative; z-index: 1">
                 <div id="announcement-text" class="mb-6" data-aos="fade-down">
@@ -59,7 +72,7 @@ Vue.component("purple_hero_component_1721653191", {
         </div>
         </div>
     </div>
-</section>`,
+</section>
     data() {
         return {
             expanded: false,
