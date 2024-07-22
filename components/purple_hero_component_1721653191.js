@@ -19,9 +19,8 @@ Vue.component("purple_hero_component_1721653191", {
                     <li><a href="#" class="block py-2 px-4 text-white hover:bg-gradient-to-r from-purple-700 to-purple-600 transition duration-200">Contact</a></li>
                   </ul>
                 </nav>
-              </div>
-            </div>
-
+            <!-- Hero content -->
+            <div id="hero-content" class="max-w-3xl mx-auto text-center" style="position: relative; z-index: 1">
             <!-- Hero content -->
             <div id="hero-content" class="max-w-3xl mx-auto text-center" style="position: relative; z-index: 1">
                 <div id="announcement-text" class="mb-6" data-aos="fade-down">
