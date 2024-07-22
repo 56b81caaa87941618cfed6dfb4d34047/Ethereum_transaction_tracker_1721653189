@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you prefer the sidebar to be collapsible or permanently visible on the webpage?\", \"option1\": \"Collapsible\", \"option2\": \"Permanently visible\"}, {\"question 2\": \"On which side of the screen should the sidebar be placed?\", \"option1\": \"Left side of the screen\", \"option2\": \"Right side of the screen\"}], \"input_token_count\": 638, \"output_token_count\": 88, \"time_taken\": \"0:00:08.379986\"}",
+        "message_id": "guest22072024134007",
+        "timestamp": "22072024134046",
+        "component_file_name": "purple_hero_component_1721653191",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "add a sidebar with the field home, about and contact",
         "message_id": "guest22072024134007",
