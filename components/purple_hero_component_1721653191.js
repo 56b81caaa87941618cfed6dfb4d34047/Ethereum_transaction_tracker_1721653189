@@ -49,11 +49,13 @@ Vue.component("purple_hero_component_1721653191", {
                 </div>
           </div>
 
+
           <div class="flex justify-center mt-8">
-            <button class="px-6 py-3 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-600 transition duration-200">
+            <button class="px-6 py-3 bg-gradient-to-r from-indigo-900 to-blue-900 text-white rounded-lg shadow-md hover:from-indigo-800 hover:to-blue-800 transition duration-200">
               Hello World
             </button>
           </div>
+
         </div>
         </div>
     </div>
