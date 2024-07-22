@@ -38,8 +38,9 @@ Vue.component("purple_background_cta_component_1721653191", {
                     <div class="flex space-x-4">
                       <a id="content-cta-button" href="#0" class="btn transition duration-150 ease-in-out group text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white">Get Started <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1 text-purple-500">-></span></a>
 
+
                       <div class="flex-1">
-                        <button class="btn bg-white hover:bg-slate-50 text-slate-900 w-full">Hello World</button>  
+                        <button class="btn bg-blue-900 hover:bg-blue-800 text-purple-200 w-full transition duration-150 ease-in-out">Hello World</button>  
                       </div>
                     </div>
                 </div>
