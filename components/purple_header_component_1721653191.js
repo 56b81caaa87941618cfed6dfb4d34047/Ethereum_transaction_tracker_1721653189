@@ -11,24 +11,15 @@ Vue.component("purple_header_component_1721653191", {
             <div class="flex items-center justify-between h-16 md:h-20">
 
                 <div class="flex-1">
-                  <div id="sidebar" class="w-64 h-screen bg-gradient-to-b from-slate-900 to-blue-900 text-white p-4">
-                    <nav>
-                      <ul>
-                        <li><a href="index.html" class="block py-2 px-4 hover:bg-gradient-to-r from-purple-800 to-blue-800 transition duration-150 ease-in-out">Home</a></li>
-                        <li><a href="about.html" class="block py-2 px-4 hover:bg-gradient-to-r from-purple-800 to-blue-800 transition duration-150 ease-in-out">About</a></li> 
-                        <li><a href="contact.html" class="block py-2 px-4 hover:bg-gradient-to-r from-purple-800 to-blue-800 transition duration-150 ease-in-out">Contact</a></li>
-                      </ul>
-                    </nav>
-                  </div>
-                  <div id="sidebar" class="w-64 h-screen bg-gradient-to-b from-slate-900 to-blue-900 text-white p-4">
-                    <nav>
-                      <ul>
-                        <li><a href="index.html" class="block py-2 px-4 hover:bg-gradient-to-r from-purple-800 to-blue-800 transition duration-150 ease-in-out">Home</a></li>
-                        <li><a href="about.html" class="block py-2 px-4 hover:bg-gradient-to-r from-purple-800 to-blue-800 transition duration-150 ease-in-out">About</a></li> 
-                        <li><a href="contact.html" class="block py-2 px-4 hover:bg-gradient-to-r from-purple-800 to-blue-800 transition duration-150 ease-in-out">Contact</a></li>
-                      </ul>
-                    </nav>
-                  </div>
+<div id="sidebar" class="w-64 h-screen bg-gradient-to-b from-blue-900 to-purple-900 text-white p-4">
+  <nav>
+    <ul>
+      <li><a href="index.html" class="block py-2 px-4 hover:bg-gradient-to-r from-purple-800 to-blue-800 transition duration-150 ease-in-out">Home</a></li>
+      <li><a href="about.html" class="block py-2 px-4 hover:bg-gradient-to-r from-purple-800 to-blue-800 transition duration-150 ease-in-out">About</a></li> 
+      <li><a href="contact.html" class="block py-2 px-4 hover:bg-gradient-to-r from-purple-800 to-blue-800 transition duration-150 ease-in-out">Contact</a></li>
+    </ul>
+  </nav>
+</div>
                 </div>
                 </div>
                 
