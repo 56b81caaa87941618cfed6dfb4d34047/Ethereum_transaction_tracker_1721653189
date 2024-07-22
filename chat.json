@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'Hello World' button to be positioned on the page?\", \"option1\": \"Above the sidebar\", \"option2\": \"Below the sidebar\"}, {\"question 2\": \"Do you have any specific styling preferences for the 'Hello World' button (e.g., color, size)?\", \"option1\": \"Yes, I have specific styling preferences\", \"option2\": \"No, standard styling is fine\"}], \"input_token_count\": 682, \"output_token_count\": 103, \"time_taken\": \"0:00:08.325234\"}",
+        "message_id": "guest22072024132602",
+        "timestamp": "22072024132612",
+        "component_file_name": "purple_background_cta_component_1721653191",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Got it, adding a button with \"Hello World\" text.",
         "message_id": "guest22072024132602",
