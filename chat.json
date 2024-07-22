@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"For the sidebar containing 'Home', 'About', and 'Contact', would you prefer it to be collapsible or to always remain visible on the screen?\", \"option1\": \"Collapsible\", \"option2\": \"Always visible\"}, {\"question 2\": \"Where would you like the sidebar with 'Home', 'About', and 'Contact' to be positioned on the screen?\", \"option1\": \"On the left side\", \"option2\": \"On the right side\"}], \"input_token_count\": 577, \"output_token_count\": 111, \"time_taken\": \"0:00:03.360671\"}",
+        "message_id": "guest22072024131829",
+        "timestamp": "22072024131836",
+        "component_file_name": "purple_background_cta_component_1721653191",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "add a sidebar with the fields home, about and contact",
         "message_id": "guest22072024131829",
