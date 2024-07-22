@@ -11,12 +11,12 @@ Vue.component("purple_hero_component_1721653191", {
         <div id="hero-content-container" class="pt-32 pb-16 md:pt-52 md:pb-32">
             
             <div class="flex-1">
-              <div class="fixed left-0 top-0 bottom-0 w-64 bg-gray-800 text-white p-4">
+              <div class="fixed left-0 top-0 bottom-0 w-64 bg-gradient-to-b from-purple-900 to-purple-800 text-white p-4">
                 <nav>
                   <ul>
-                    <li><a href="#" class="block py-2 px-4 hover:bg-gray-700 transition duration-200">Home</a></li>
-                    <li><a href="#" class="block py-2 px-4 hover:bg-gray-700 transition duration-200">About</a></li>  
-                    <li><a href="#" class="block py-2 px-4 hover:bg-gray-700 transition duration-200">Contact</a></li>
+                    <li><a href="#" class="block py-2 px-4 text-white hover:bg-gradient-to-r from-purple-700 to-purple-600 transition duration-200">Home</a></li>
+                    <li><a href="#" class="block py-2 px-4 text-white hover:bg-gradient-to-r from-purple-700 to-purple-600 transition duration-200">About</a></li>  
+                    <li><a href="#" class="block py-2 px-4 text-white hover:bg-gradient-to-r from-purple-700 to-purple-600 transition duration-200">Contact</a></li>
                   </ul>
                 </nav>
               </div>
@@ -64,7 +64,7 @@ Vue.component("purple_hero_component_1721653191", {
 
 
           <div class="flex justify-center mt-8">
-            <button class="px-6 py-3 bg-gradient-to-r from-indigo-900 to-blue-900 text-white rounded-lg shadow-md hover:from-indigo-800 hover:to-blue-800 transition duration-200">
+            <button class="px-6 py-3 bg-gradient-to-r from-purple-600 to-purple-500 text-white rounded-lg shadow-md hover:from-purple-500 hover:to-purple-400 transition duration-200">
               Hello World
             </button>
           </div>
