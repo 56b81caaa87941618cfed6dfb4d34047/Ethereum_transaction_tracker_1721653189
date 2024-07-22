@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"How do you want the sidebar to behave on different devices (e.g., desktops, tablets, and mobiles)?\", \"option1\": \"It should be fixed and always visible on all devices.\", \"option2\": \"It should be collapsible on mobile devices and fixed on larger screens.\"}, {\"question 2\": \"For the sidebar's visual style, do you prefer a modern or classic design approach?\", \"option1\": \"I prefer a sleek, modern design with minimalist icons.\", \"option2\": \"I prefer a classic design that uses traditional styles and textures.\"}], \"input_token_count\": 559, \"output_token_count\": 130, \"time_taken\": \"0:00:13.196297\"}",
+        "message_id": "guest22072024131553",
+        "timestamp": "22072024131608",
+        "component_file_name": "purple_header_component_1721653191",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_ui_checklist",
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Expandable user profile section\", \"checked\": true}, {\"feature\": \"Live feed of recent Ethereum transactions for the homepage\", \"checked\": true}, {\"feature\": \"Detailed 'About' page including FAQs about Ethereum\", \"checked\": true}, {\"feature\": \"Contact form with CAPTCHA verification\", \"checked\": true}, {\"feature\": \"Dark/Light mode toggle\", \"checked\": true}, {\"feature\": \"Notification bell for real-time alerts\", \"checked\": true}], \"input_token_count\": 513, \"output_token_count\": 84, \"time_taken\": \"0:00:09.810339\"}",
         "message_id": "guest22072024131553",
